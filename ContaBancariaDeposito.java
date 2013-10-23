@@ -1,4 +1,3 @@
-
 public class ContaBancariaDeposito extends ContaBancaria{
 	
 	private double deposito;
@@ -16,12 +15,6 @@ public class ContaBancariaDeposito extends ContaBancaria{
 	
 	}
 
-	public double getDeposito() {
-		return deposito;
-	}
-
-	public void setDeposito(double deposito) {
-		this.deposito = deposito;
-	}
+	
 	
 }
