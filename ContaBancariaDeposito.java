@@ -4,7 +4,7 @@ public class ContaBancariaDeposito extends ContaBancaria{
 	
 	public ContaBancariaDeposito (String nome, String cpf, String rg, double saldo, double deposito){
 		super(nome,rg, cpf,saldo);
-		this.setDeposito(deposito);
+		this.deposito=deposito;
 		
 	}
 	
