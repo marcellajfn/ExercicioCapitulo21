@@ -9,9 +9,12 @@ public class TestContaBancaria {
 	
 	@Before
 	public void setUp() throws Exception {
-	minhaConta = new ContaBancariaDeposito("Marcella", "000.090.098.09","09098-09", 1000,200);
-	assertEquals(1200, minhaConta.SaldoEdeposito(1000, 200),0.001);
 	}
 
 
+       @Test
+       public void testContaBancaria(){
+        minhaConta = new ContaBancariaDeposito("Marcella", "000.090.098.09","09098-09", 1000,200);
+	assertEquals(1200, minhaConta.SaldoEdeposito(1000, 200),0.001);
+       }
 }
