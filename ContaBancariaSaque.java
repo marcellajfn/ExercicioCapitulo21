@@ -1,4 +1,3 @@
-
 public class ContaBancariaSaque extends ContaBancaria{
 
 	private double saque;
@@ -21,12 +20,6 @@ public class ContaBancariaSaque extends ContaBancaria{
 	}
 
 
-	public double getSaque() {
-		return saque;
-	}
-
-	public void setSaque(double saque) {
-		this.saque = saque;
-	}	
+	
 	
 }
