@@ -4,7 +4,7 @@ public class ContaBancariaSaque extends ContaBancaria{
 	
 	public ContaBancariaSaque (String nome, String cpf, String rg, double saldo, double saque){
 		super(nome,cpf,rg,saldo);
-		this.setSaque(saque);	
+		this.saque=saque;	
 	}
 
 	
